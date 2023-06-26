@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #219ebc;
+}
+header p {
+  font-weight: bolder;
+}
+a {
+  color: #55a630;
+}
+body {
+  background-color: #cbc0d3;
+}
