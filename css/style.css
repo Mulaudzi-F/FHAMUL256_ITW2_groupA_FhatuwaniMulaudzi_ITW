@@ -20,7 +20,7 @@ a {
   color: #55a630;
 }
 body {
-  background-color: #cbc0d3;
+  background-color: #f1faee;
 }
 header p,
 aside,
@@ -41,4 +41,35 @@ footer {
   width: 20%;
   background-color: #c8b6ff;
   padding-top: 40px;
+}
+input{
+  margin: 21px 21px;
+  padding: 13px;
+  border: 1px solid transparent;
+}
+button{
+  margin:12px 140px ;
+  padding: 10px;
+  width: 20%;
+  background-color: #219ebc;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid #219ebc;
+}
+textarea{
+  width: 30%;
+  padding-bottom: 100px;
+  margin-top: 10px;
+}
+footer a{
+  margin: 21px;
+}
+
+.mes{
+  position: relative;
+  bottom: 110px;
+  right: 10px;
+}
+#menu li{
+  margin-top: 10px;
 }
