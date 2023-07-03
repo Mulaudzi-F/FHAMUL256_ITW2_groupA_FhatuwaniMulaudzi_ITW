@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #219ebc;
+  background-color:;
   margin: 0;
   width: 100%;
   border-radius: 10px;
@@ -72,4 +72,11 @@ footer a{
 }
 #menu li{
   margin-top: 10px;
+}
+#container{
+  background:#219ebc url(/images/Hero\ image.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  background-origin: content-box;
 }
