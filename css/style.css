@@ -1,10 +1,15 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1;
+  background-color: #f1faee;
+  margin: 0;
 }
 
 header {
-  background-color:;
+ 
   margin: 0;
   width: 100%;
   border-radius: 10px;
@@ -19,9 +24,7 @@ nav h2 {
 a {
   color: #55a630;
 }
-body {
-  background-color: #f1faee;
-}
+
 header p,
 aside,
 h1 {
@@ -79,4 +82,51 @@ footer a{
   height: 300px;
   position: relative;
   background-origin: content-box;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  header{
+    font-size: 10px;
+}
+footer a{
+  display: block;
+}
+#menu{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.content, .foot{
+margin-right: 10%;
+padding: 30px;
+}
+textarea{
+  width: 50%;
+}
+
+section,
+footer {
+  margin-left: 0;
+}
+}
+
+@media screen and (min-width: 768px) {
+  #menu{
+    display: inline-block;
+  }
+  .content, .foot{
+   position: relative;
+   bottom: 190px;
+  }
+
+}
+@media screen and (min-width: 992px) {
+  .content, .foot{
+   font-size: 20px;
+   }
 }
